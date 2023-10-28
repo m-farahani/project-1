@@ -1,0 +1,76 @@
+*{
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+li, a , button{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.logo{
+     cursor: pointer;
+     margin-right: auto;
+}
+
+.nav-links{
+    list-style: none;
+}
+
+.nav-links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav-links li a{
+    transition:all 550ms;
+    -moz-transition:all 550ms;
+    -ms-transition:all 550ms;
+    -o-transition:all 550ms;
+    -webkit-transition:all 550ms;
+}
+
+.nav-links li a:hover{
+     color: red;
+     transition: all 550ms;
+     -webkit-transition: all 550ms;
+     -moz-transition: all 550ms;
+     -ms-transition: all 550ms;
+     -o-transition: all 550ms;
+}
+
+button{
+    padding:9px 25px;
+    background-color: rgba(rgb(255, 0, 0), rgb(10, 112, 10), rgb(10, 10, 75), 15);
+    border:thin pink;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    cursor: pointer;
+    transition: all 550ms ;
+    -webkit-transition: all 550ms ;
+    -moz-transition: all 550ms ;
+    -ms-transition: all 550ms ;
+    -o-transition: all 550ms ;
+    margin-left: 20px;
+}
+
+button:hover{
+    background-color: rgba(rgb(164, 196, 22), rgb(52, 87, 12), rgb(88, 88, 102), 1);
+}
+
+p{
+    position: absolute;
+    
+}
